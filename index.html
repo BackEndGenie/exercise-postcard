@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PostCard by AH</title>
+
+    <link href="normalize.css" rel="stylesheet">
+
+    <link rel="preload" href="styles.css" as="style">
+
+    <link href="styles.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <header class="contenedor">
+            <h1>
+                My Postcard
+            </h1>
+            <img src="http://assets.breatheco.de/apis/img/icon/4geeks.png">
+        </header>
+    </div>
+    <main>
+        <div class="contenido"> <!--Este div es para contener los dos parrafos-->
+            <p>
+                Look how awesome! This is a postcard that I created using HTML5 and CSS3 during my 4Geeks Academy
+                Course!
+            </p>
+            <p>
+                This is so cool, can't wait to start doing more stuff!
+            </p>
+        </div>
+        <!--Etiqueta de Formato-->
+        <form>
+            <!--nombre-->
+            <div>
+                <input class="campo" type="text" placeholder="Some Name">
+            </div>
+            <!--correo-->
+            <div>
+                <input class="campo" type="email" placeholder="Some email:">
+            </div>
+            <!--comentarios-->
+            <div>
+                <input class="campo campo__textarea" type="text" placeholder="Some Comments:">
+        </form>
+    </main>
+
+    <div class="contenedor__boton">
+        <a class="boton" href="@">Sent my Postcard</a>
+    </div>
+
+</body>
+
+</html>
